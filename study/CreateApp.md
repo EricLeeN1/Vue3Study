@@ -4,7 +4,7 @@
 
 之前Vue2
 
-```javascript
+```
 new Vue({
     el: '#app',
     router,
@@ -17,7 +17,7 @@ new Vue({
 
 使用createApp返回一个提供应用上下文的应用实例。应用实例挂载的整个组件树共享同一个上下文。
 
-```javascript
+```
 createApp(App).use(store).use(router).mount('#app')
 ```
 
